@@ -10,7 +10,7 @@ just a little project for my first time try and learn html and css
 
 
 * * * 
-####版本更新日誌
+#### 版本更新日誌
 >* 1.03 @106/5/1        
 回朔上傳錯誤的1.02版本       
 修正jpeg版本的js錯誤              
