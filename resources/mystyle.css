@@ -6,11 +6,11 @@ body {
     background-color: blank;}
     
 ul.navbar {
-    list-style-type: none;
+    list-style-type:none;
     padding: 0;
     margin: 0;
     top: 2em;
-    left: 1em;
+    left: 0em;
     width: 9em;
 }
 
@@ -19,8 +19,10 @@ ul.navbar {
 ul.navbar li {
     background: white;
     margin: 0.5em 0;
-    padding: 0.3em;
-    border-right: 1em solid black }
+    padding: 0.3em; 
+    /*border-right: 1em solid black 將列表至於右邊*/
+    }
+
 
     ul.navbar a {
     text-decoration: none }
