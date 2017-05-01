@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+
+<head>
+  <title>我的第一個樣式頁面</title>
+
+  <link rel="stylesheet" href="../mystyle.css">
+
+</head>
+
+<body> 
+
+<!-- 目錄 -->
+<ul  class="navbar" >
+  <li><a href="../homepage/homepage.html"><img src="../icon/1492345458_home.png" width="40" height="40"></a>
+  <li><a href="../001/001.html">連接1</a>
+  <li><a href="../002/002.html">連接2</a>
+  <li><a href="../003/003.html">連接3</a>
+  <li><a href="../004/004.html">連接4</a>
+  <li><a href="../005/005.html">連接5</a>
+  <li><a href="../006/006.html">連接6</a>
+</ul>
+
+
+
+<script>
+
+function addElementImg() {
+    var body = document.querySelector("body");
+
+    for (var i = 1; i <= 212; i++) {
+        var img=document.createElement("img");
+        img.src = "image/"+ i + ".jpg";
+        img.title = "範例圖片";
+        img.height = "1000";
+        body.appendChild(img);
+        }
+    }
+    
+addElementImg();
+    
+</script>    
+
+
+
+
+</body>
+
+</html>
