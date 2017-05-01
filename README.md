@@ -12,12 +12,15 @@ just a little project for my first time try and learn html and css
 
 * * * 
 #### 版本更新日誌
+<<<<<<< HEAD
 >* 1.04 @106/5/1        
 修改兩個js檔     
 加上判斷圖片高度及寬度的式子讓版面更好看        
 修改每個頁面的名稱為page       
 讓版面看起來更整齊
 * * *
+=======
+>>>>>>> origin/master
 >* 1.03 @106/5/1        
 回朔上傳錯誤的1.02版本       
 修正jpeg版本的js錯誤              
